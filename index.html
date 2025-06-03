@@ -173,7 +173,7 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+            <button class="navbar-link active" data-nav-link>Portfolio</button>
           </li>
 
           <li class="navbar-item">
@@ -181,7 +181,7 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
+            <button class="navbar-link" data-nav-link>About</button>
           </li>
 
           <!-- <li class="navbar-item"> 
@@ -201,10 +201,320 @@
 
 
       <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio active" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <!-- <ul class="filter-list"> -->
+
+            <!-- FIND OUT WHY THIS DOESN'T WORK
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Projects</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Graphic Design</button>
+            </li> -->
+
+          <!-- </ul> -->
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Projects</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Graphic Design</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="Applications">
+              <a href="https://www.notion.so/HokieGradTrack-2079463a7f2b80de807aedbafe482305?source=copy_link">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">HokieGradTrack</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>     
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Graphic Design">
+              <a href="https://vivacious-drink-06e.notion.site/Mario-Kart-Wii-World-Cup-2023-ca722396e571457899ea80241492d20d?pvs=4">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mario Kart Wii World Cup 2023</h3>
+
+                <p class="project-category">Graphic Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Applications">
+              <a href="https://vivacious-drink-06e.notion.site/GreenThumb-6f8f379225374a9c93ef1a534acf7eeb?pvs=4">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">GreenThumb</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Graphic Design">
+              <a href="https://vivacious-drink-06e.notion.site/Grand-Star-Cup-c07802760694474bb411783e1ad06760?pvs=4">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Grand Star Cup</h3>
+
+                <p class="project-category">Graphic Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Graphic Design">
+              <a href="https://www.linkedin.com/feed/update/urn:li:activity:7089575024293994497/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">HITT Internship Experience</h3>
+
+                <p class="project-category">Video</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Projects">
+              <a href="https://www.twitch.tv/mariokartcentralwii">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MarioKartCentralWii</h3>
+
+                <p class="project-category">Graphic Design</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <!-- Education -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Virginia Tech</h4>
+              <span class="timeline-separator">&#9679;</span>
+              <p class="timeline-location">Blacksburg, VA</p>
+              <span>December 2024</span>
+              <p class="timeline-text">BS in Computer Science
+                Apple Pathways Academy Scholar
+                USBC Collegiate Bowler.</p>
+            </li>
+          </ol>
+        </section>
+
+        <!-- Experience -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Engineer</h4>
+              <span class="timeline-separator">&#9679;</span>
+              <p class="timeline-location">Walmart Global Tech - Modflex/Location Team, Reston, VA</p>
+              <span>February 2025 — Present</span>
+              <div class="timeline-text">
+                <ul>
+                  <li>Developed Digital Shelf Labels features for the Me@Walmart mobile app—empowering associates to update prices on 120,000+ SKUs in minutes instead of two days.</li>
+                  <li>Recaptured ~30% of previously missed profit by building reusable React Native TypeScript components, hooks, selectors, and screens.</li>
+                  <li>Ensured consistent product-variant display by implementing custom sort logic ordering by position, numeric size, mapped apparel sizes (3XS–9XL), then alphabetically.</li>
+                  <li>Validated iOS and Android DSL builds by running sanity, regression, and feature tests with curated data, catching critical defects before production.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Engineering Intern</h4>
+              <span class="timeline-separator">&#9679;</span>
+              <p class="timeline-location">Walmart Global Tech - Store Price Execution Team, Bentonville, AR</p>
+              <span>June 2024 — August 2024</span>
+              <div class="timeline-text">
+                <ul>
+                  <li>Reduced on-call troubleshooting ticket resolution time by ~99% by architecting and building a full-stack Support Tool with Java Spring Boot, Bootstrap CSS, and JavaScript.</li>
+                  <li>Improved data accuracy by integrating Walmart API Services into Spring Boot microservices with comprehensive error handling and retry logic.</li>
+                  <li>Created a responsive front-end dashboard enabling real-time visualization of query performance and system health.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Undergraduate Teaching Assistant</h4>
+              <span class="timeline-separator">&#9679;</span>
+              <p class="timeline-location">Virginia Tech Dept. of Computer Science - Apple Mobile Software Development, Blacksburg, VA</p>
+              <span>August 2023 — December 2023</span>
+              <div class="timeline-text">
+                <ul>
+                  <li>Empowered 50+ students to develop SwiftUI mobile apps by delivering 15+ SwiftData tutorials and guiding a capstone project.</li>
+                  <li>Achieved 100% project completion via code reviews, interactive labs, and individual feedback.</li>
+                  <li>Hosted weekly office hours to troubleshoot iOS development issues, reducing student debugging time.</li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+        </section>
+
+        <!-- Technical Skills
+        <section class="skill">
+          <h3 class="h3 skills-title">Technical Skills</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">TypeScript</h5>
+                <data value="—">—</data>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">SwiftUI</h5>
+                <data value="—">—</data>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="—">—</data>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="—">—</data>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="—">—</data>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">HTML & CSS</h5>
+                <data value="—">—</data>
+              </div>
+            </li>
+          </ul>
+        </section> -->
+      </article>
+
+      <!--
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="about">
+      <article class="about" data-page="about">
 
         <header>
           <h2 class="h2 article-title">About me</h2>
@@ -212,7 +522,7 @@
 
         <section class="about-text">
           <p>
-            I’m a Software Engineer passionate about mobile apps, automation, and crafting efficient user experiences. I thrive on solving challenges through clean code and intuitive design.
+            I'm a Software Engineer passionate about mobile apps, automation, and crafting efficient user experiences. I thrive on solving challenges through clean code and intuitive design.
           </p>
         </section>
 
@@ -492,324 +802,6 @@
           </ul>
 
         </section> -->
-
-      </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <!-- Education -->
-        <section class="timeline">
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-            <h3 class="h3">Education</h3>
-          </div>
-          <ol class="timeline-list">
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Virginia Tech</h4>
-              <span class="timeline-separator">&#9679;</span>
-              <p class="timeline-location">Blacksburg, VA</p>
-              <span>December 2024</span>
-              <p class="timeline-text">BS in Computer Science
-                Apple Pathways Academy Scholar
-                USBC Collegiate Bowler.</p>
-            </li>
-          </ol>
-        </section>
-
-        <!-- Experience -->
-        <section class="timeline">
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="briefcase-outline"></ion-icon>
-            </div>
-            <h3 class="h3">Experience</h3>
-          </div>
-          <ol class="timeline-list">
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Software Engineer</h4>
-              <span class="timeline-separator">&#9679;</span>
-              <p class="timeline-location">Walmart Global Tech - Modflex/Location Team, Reston, VA</p>
-              <span>February 2025 — Present</span>
-              <div class="timeline-text">
-                <ul>
-                  <li>Developed Digital Shelf Labels features for the Me@Walmart mobile app—empowering associates to update prices on 120,000+ SKUs in minutes instead of two days.</li>
-                  <li>Recaptured ~30% of previously missed profit by building reusable React Native TypeScript components, hooks, selectors, and screens.</li>
-                  <li>Ensured consistent product-variant display by implementing custom sort logic ordering by position, numeric size, mapped apparel sizes (3XS–9XL), then alphabetically.</li>
-                  <li>Validated iOS and Android DSL builds by running sanity, regression, and feature tests with curated data, catching critical defects before production.</li>
-                </ul>
-              </div>
-            </li>
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Software Engineering Intern</h4>
-              <span class="timeline-separator">&#9679;</span>
-              <p class="timeline-location">Walmart Global Tech - Store Price Execution Team, Bentonville, AR</p>
-              <span>June 2024 — August 2024</span>
-              <div class="timeline-text">
-                <ul>
-                  <li>Reduced on-call troubleshooting ticket resolution time by ~99% by architecting and building a full-stack Support Tool with Java Spring Boot, Bootstrap CSS, and JavaScript.</li>
-                  <li>Improved data accuracy by integrating Walmart API Services into Spring Boot microservices with comprehensive error handling and retry logic.</li>
-                  <li>Created a responsive front-end dashboard enabling real-time visualization of query performance and system health.</li>
-                </ul>
-              </div>
-            </li>
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Undergraduate Teaching Assistant</h4>
-              <span class="timeline-separator">&#9679;</span>
-              <p class="timeline-location">Virginia Tech Dept. of Computer Science - Apple Mobile Software Development, Blacksburg, VA</p>
-              <span>August 2023 — December 2023</span>
-              <div class="timeline-text">
-                <ul>
-                  <li>Empowered 50+ students to develop SwiftUI mobile apps by delivering 15+ SwiftData tutorials and guiding a capstone project.</li>
-                  <li>Achieved 100% project completion via code reviews, interactive labs, and individual feedback.</li>
-                  <li>Hosted weekly office hours to troubleshoot iOS development issues, reducing student debugging time.</li>
-                </ul>
-              </div>
-            </li>
-          </ol>
-        </section>
-
-        <!-- Technical Skills
-        <section class="skill">
-          <h3 class="h3 skills-title">Technical Skills</h3>
-          <ul class="skills-list content-card">
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">TypeScript</h5>
-                <data value="—">—</data>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">SwiftUI</h5>
-                <data value="—">—</data>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Java</h5>
-                <data value="—">—</data>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Python</h5>
-                <data value="—">—</data>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">JavaScript</h5>
-                <data value="—">—</data>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">HTML & CSS</h5>
-                <data value="—">—</data>
-              </div>
-            </li>
-          </ul>
-        </section> -->
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <!-- <ul class="filter-list"> -->
-
-            <!-- FIND OUT WHY THIS DOESN'T WORK
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Projects</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Graphic Design</button>
-            </li> -->
-
-          <!-- </ul> -->
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Projects</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Graphic Design</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="Applications">
-              <a href="https://vivacious-drink-06e.notion.site/PriorityQueue-a5d41860a0224a99a00406f637774e6a?pvs=4">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.png" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">PriorityQueue</h3>
-
-                <p class="project-category">Applications (In Progress)</p>
-
-              </a>     
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Graphic Design">
-              <a href="https://vivacious-drink-06e.notion.site/Mario-Kart-Wii-World-Cup-2023-ca722396e571457899ea80241492d20d?pvs=4">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Mario Kart Wii World Cup 2023</h3>
-
-                <p class="project-category">Graphic Design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Applications">
-              <a href="https://vivacious-drink-06e.notion.site/GreenThumb-6f8f379225374a9c93ef1a534acf7eeb?pvs=4">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">GreenThumb</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Graphic Design">
-              <a href="https://vivacious-drink-06e.notion.site/Grand-Star-Cup-c07802760694474bb411783e1ad06760?pvs=4">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Grand Star Cup</h3>
-
-                <p class="project-category">Graphic Design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Graphic Design">
-              <a href="https://www.linkedin.com/feed/update/urn:li:activity:7089575024293994497/">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">HITT Internship Experience</h3>
-
-                <p class="project-category">Video</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Projects">
-              <a href="https://www.twitch.tv/mariokartcentralwii">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MarioKartCentralWii</h3>
-
-                <p class="project-category">Graphic Design - Twitch</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
 
       </article>
 
